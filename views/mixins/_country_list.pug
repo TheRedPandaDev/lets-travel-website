@@ -1,5 +1,5 @@
 mixin countryList(country)
-- var countryLower = country.toLowerCase()
+    - var countryLower = country.toLowerCase()
     li
         a(href=`/countries/${countryLower}`) #{country}
             img(src=`/images/countries/${country}.jpg`)
