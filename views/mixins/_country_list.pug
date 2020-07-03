@@ -1,5 +1,5 @@
 mixin countryList(country)
-
+country = country.toLowerCase()
     li
         a(href=`/countries/${country}`) #{country}
             img(src=`/images/countries/${country}.jpg`)
